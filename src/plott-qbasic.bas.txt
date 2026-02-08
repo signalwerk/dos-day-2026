@@ -1,0 +1,24 @@
+PX = 1040
+PY = 440
+BREITE = 160
+HOEHE = 160
+Randomize Timer
+
+For I = 1 To 22
+    For AXOFFSET = 0 To 1800 Step 200
+        For AYOFFSET = 0 To 1800 Step 200
+
+            XOFFSET = AXOFFSET + Int(Rnd * 40)
+            YOFFSET = AYOFFSET + Int(Rnd * 40)
+
+            LPrint "M"; XOFFSET + PX; ","; YOFFSET + PY
+            LPrint "D"; XOFFSET + PX + BREITE; ","; YOFFSET + PY
+            LPrint "D"; XOFFSET + PX + BREITE; ","; YOFFSET + PY + HOEHE
+            LPrint "D"; XOFFSET + PX; ","; YOFFSET + PY + HOEHE
+            LPrint "D"; XOFFSET + PX; ","; YOFFSET + PY
+
+        Next AYOFFSET
+    Next AXOFFSET
+Next I
+
+End

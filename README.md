@@ -22,6 +22,42 @@ For generative drawings, it's also possible to use QBASIC (see the example in [`
 ![Output of the test program](pics/jpg/IMG_0712.jpg)
 ![3D printed pen holder](pics/jpg/IMG_0718.jpg)
 
+## Pen holder
+
+```
+├─────── 16.5 mm ───────┤
+
+│   ┌───────────────┐   │  ─ ─ ─ ─ ┬ ─
+    │               │              │
+│   │               │   │          │
+    │               │
+│   │               │   │        14 mm
+    │               │
+│   │               │   │          │
+    │               │              │
+┌───┴───────────────┴───┐  ─ ─ ─ ─ ┴ ─
+│                       │      1.9 mm
+└───┬───────────────┬───┘  ┬ ─ ─ ─ ┬ ─
+    │               │      │       │
+    │               │      │       │
+    │               │              │
+    │               │    14 mm     │
+    │               │              │
+    │               │      │       │
+    │               │      │
+    └─┬───────────┬─┘    ─ ┼ ─    ? mm
+      └┐         ┌┘        │
+    │  │         │  │      │       │
+       └┐       ┌┘                 │
+    │   │       │   │     ? mm     │
+        └┐     ┌┘                  │
+    │    └┐   ┌┘    │      │       │
+          └┐ ┌┘            │       │
+    │      └▼┘ ─ ─ ─│─ ─ ─ ┴ ─ ─ ─ ┴ ─
+
+    ├─── 11.4 mm ───┤
+```
+
 ## License
 
 MIT License. Coded by [Matthias Schwyn](https://www.weisspunkt.ch/) and [Stefan Huber](https://signalwerk.ch/).
